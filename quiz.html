@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    
+    <link rel="stylesheet" href="styles/quiz.css">
+  </head>
+  <body>
+    <a href="leaderboard.html" class="js-leaderboard leaderboard"></a>
+    <div class="app-container">
+      <header>Simple Algebraic Quiz</header>
+      <div class="time-score-container">
+        <p class="js-score-count score-count"></p>
+        <p class="js-timer timer"></p>
+      </div>
+      <input type="text" placeholder="Enter your name..." class="js-name-input name-input">
+      <p class="js-name-warning name-warning"></p>
+      <div class="js-button-container"></div>
+      <p class="js-equation-container equation-container"></p>
+      <div class="js-options-container options-container"></div>
+      <p class="js-result-checker result-checker"></p>
+      <p class="js-result-decider result-decider"></p>
+    </div>
+
+    <script type="module" src="scripts/quiz.js"></script>
+  </body>
+</html>

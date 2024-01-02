@@ -1,0 +1,23 @@
+body {
+  background-color: #cbeaf4;
+  font-family: Nunito;
+  color: black;
+}
+.details {
+  display: grid;
+  grid-template-columns: 50px 2fr 1fr 1fr;
+  font-size: 18px;
+  margin-bottom: 1px;
+}
+.sub-detail {
+  border: solid;
+  border-width: 1px;
+  padding: 5px;
+}
+.last-column {
+  border-width: 1px;
+}
+.return-class {
+  font-size: 20px;
+  color: black;
+}
